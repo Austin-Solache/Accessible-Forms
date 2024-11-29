@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="Austin Solache">
-<!-- 	-------- TO-DO: ADD META TAG AND NAME HERE -------- -->
+	<meta name="Austin Solache" content="Accessible Forms">
+
 	<title>Form Activity Solution File</title>
-<!-- 	-------- TO-DO: ADD LINK TO CSS HERE -------- -->
+
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,22 +26,17 @@
 	
 	<form method="POST" action="https://wp.zybooks.com/form-viewer.php">
 		<label>Full Name:</label>
-		<input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required> </input>
-
+		<input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
 		<label>Email:</label>
-		<input type="email" id="email" name="email" placeholder="Enter your email" required> </input>
-			
+		<input type="email" id="email" name="email" placeholder="Enter your email" required>
 		<label>Phone Number:</label>
-		<input type="tel" id="phone-number" name="phone-number" placeholder="Enter your phone" required> </input>				
-
+		<input type="tel" id="phone-number" name="phone-number" placeholder="Enter your phone" required>				
 		<label>Preferred Contact Method:</label>
 		<fieldset>
-		<input type="radio" id="contact" name="contact" value="Phone" required>
+		<input type="radio" id="contact-phone" name="contact" value="Phone" required>
 			<label>Phone:</label>
-		</input>
-		<input type="radio" id="contact" name="contact" value="Email" required>
+		<input type="radio" id="contact-email" name="contact" value="Email" required>
 			<label>Email:</label>
-		</input>
 		</fieldset>
 			<label for="states">Select your state:</label>
 				<select name="state" id="states" required>
@@ -96,12 +91,10 @@
 					<option value="West Virginia">West Virginia</option>
 					<option value="Wisconsin">Wisconsin</option>
 					<option value="Wyoming">Wyoming</option>
-
 				</select>
-			</label>
-			<label for="message">Message</label>  
+			<label>Message</label>  
 			<textarea id="comments" name="Comments" placeholder="Enter your Comments/Concerns"></textarea>
-		<input type="submit"> </input>	
+		<input type="submit">	
 	</form>
 	<div id="particleBackground"></div>
 	<main id="main-content">
@@ -109,7 +102,6 @@
 			<h2>Coding Semantic and Accessible Forms!</h2>
 			<p>Today we'll be focusing on coding a form that is accessible and semantic, and we'll also briefly discuss skip links for your website. Forms can be a source of frustration for users, whether they specifically need help with accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code this in class, and please ask questions as they arise. Let's make a form!</p>
 
-<!-- 	-------- TO-DO: ADD FORM CODE HERE DURING CLASS, FOLLOW ALONG TO COMPLETE -------- -->
 		</article>
 	</main>
 	<footer>
